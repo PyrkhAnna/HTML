@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Блочная верстка</title>
+  <!--[if IE]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style type="text/css">
+   article, aside, details, figcaption, figure, footer,header,
+   hgroup, menu, nav, section { display: block; }
+   ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 10px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+   }
+   .round {
+    float: left;
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin-right: 10px;
+   }
+   .date {
+     padding: 5px;
+     margin: 5px;
+     float: right;
+    }
+   .block {
+     width: 90%;
+     border: 1px solid #B25538;
+     padding: 5px;
+     margin: 5px;
+   }
+	 .column {
+	  width: 23%;
+    background: #f0f0f0;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+   }
+   .leftheader {
+    width: 70%;
+    background: #f0f0f0;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+  }
+  .rightheader {
+    position: absolute;
+    right: 5px;
+    background: #f0f0f0;
+    padding: 5px;
+    margin: 5px;
+   
+  }
+  .layout {
+    margin: 5px 0; /* Отступы сверху и снизу */ 
+    overflow: hidden; /* Отменяем действие float */
+  }
+  header, aside, section, footer { 
+    padding: 10px; /* Поля */
+    border: solid 1px #000; /* Параметры рамки */
+    background: #f0f0f0; /* Цвет фона */
+   }
+  header {
+    font-size: 36px; /* Размер шрифта */
+  }
+	aside {
+    width: 29%;
+    margin-left: 70%;
+    border: solid 1px black; 
+    padding: 3px; 
+ }
+  section {
+ 	  width: 67%;
+    float: left;
+    border: solid 1px black; /* Параметры рамки */
+    margin-bottom: 15px /* Отступ снизу */
+  }
+  
+ </style>
+ </head>
+ <body>
+  <header> 
+   <div class="layout">
+     <div class="leftheader">
+      <img src="round2.jpg"  width="50" class="round" alt="anime_girl">
+      <ul class="hr">
+       <li>Button1</li>
+       <li>Button2</li>
+       <li>Button3</li>
+       <li>Button4</li>
+      </ul>
+     </div>
+     <div class="rightheader">
+      <ul class="hr">
+       <li>Help</li>
+       <li>Menu</li>
+      </ul>
+     </div>
+    </div>
+   
+  </header>
+  <div class="layout">
+   <section>
+    <h4>Title</h4>
+    <img src="anime_girl.jpg" width="175" align="left" hspace="5" vspace="10" alt="anime_girl">
+    <p>From my father I received the best inheritance, namely a “good temper.” “And who was my father?” That has nothing to do with the good temper; but I will say he was lively, good-looking round, and fat; he was both in appearance and character a complete contradiction to his profession. “And pray what was his profession and his standing in respectable society?” Well, perhaps, if in the beginning of a book these were written and printed, many, when they read it, would lay the book down and say, “It seems to me a very miserable title, I don’t like things of this sort.” And yet my father was not a skin-dresser nor an executioner; on the contrary, his employment placed him at the head of the grandest people of the town, and it was his place by right. He had to precede the bishop, and even the princes of the blood; he always went first,—he was a hearse driver! There, now, the truth is out. And I will own, that when people saw my father perched up in front of the omnibus of death, dressed in his long, wide, black cloak, and his black-edged, three-cornered hat on his head, and then glanced at his round, jocund face, round as the sun, they could not think much of sorrow or the grave. That face said, “It is nothing, it will all end better than people think.” So I have inherited from him, not only my good temper, but a habit of going often to the churchyard, which is good, when done in a proper humor; and then also I take in the Intelligencer, just as he used to do. I am not very young, I have neither wife nor children, nor a library, but, as I said, I read the Intelligencer, which is enough for me; it is to me a delightful paper, and so it was to my father. It is of great use, for it contains all that a man requires to know; the names of the preachers at the church, and the new books which are published; where houses, servants, clothes, and provisions may be obtained. And then what a number of subscriptions to charities, and what innocent verses! Persons seeking interviews and engagements, all so plainly and naturally stated. Certainly, a man who takes in the Intelligencer may live merrily and be buried contentedly, and by the end of his life will have such a capital stock of paper that he can lie on a soft bed of it, unless he prefers wood shavings for his resting-place. The newspaper and the churchyard were always exciting objects to me. My walks to the latter were like bathing-places to my good humor. Every one can read the newspaper for himself, but come with me to the churchyard while the sun shines and the trees are green, and let us wander among the graves. Each of them is like a closed book, with the back uppermost, on which we can read the title of what the book contains, but nothing more. I had a great deal of information from my father, and I have noticed a great deal myself. I keep it in my diary, in which I write for my own use and pleasure a history of all who lie here, and a few more beside.</p>
+    <div class="date">mm.dd.yyyy</div>
+   </section>
+   <aside>
+    <div class="layout"> 
+     <h4><u>Title</u></h4>
+     <p>Now we are in the churchyard. Here, behind the white iron railings, once a rose-tree grew; it is gone now, but a little bit of evergreen, from a neighboring grave, stretches out its green tendrils, and makes some appearance; there rests a very unhappy man, and yet while he lived he might be said to occupy a very good position. He had enough to live upon, and something to spare; but owing to his refined tastes the least thing in the world annoyed him. </p>
+     <div class="date">mm.dd.yyyy</div>
+    </div>
+    <div class="layout"> 
+     <h4><u>Title</u></h4>
+     <p>If he went to a theatre of an evening, instead of enjoying himself he would be quite annoyed if the machinist had put too strong a light into one side of the moon, or if the representations of the sky hung over the scenes when they ought to have hung behind them; or if a palm-tree was introduced into a scene representing the Zoological Gardens of Berlin, or a cactus in a view of Tyrol, or a beech-tree in the north of Norway. As if these things were of any consequence! Why did he not leave them alone? Who would trouble themselves about such trifles? especially at a comedy, where every one is expected to be amused.</p>
+     <div class="date">mm.dd.yyyy</div>
+    </div>
+    
+    </aside>
+   </div>
+   <footer class="layout">  
+    <div class="column">
+     <p>Then sometimes the public applauded too much, or too little, to please him. “They are like wet wood,” he would say, looking round to see what sort of people were present, “this evening; nothing fires them.” </p>
+     <div class="block" align="center">COPYRIGHTS</div>
+        
+    </div>
+    <div class="column">Then he would vex and fret himself because they did not laugh at the right time, or because they laughed in the wrong places; and so he fretted and worried himself till at last the unhappy man fretted himself into the grave. Here rests a happy man, that is to say, a man of high birth and position, which was very lucky for him, otherwise he would have been </div>
+    <div class="column">scarcely worth notice. It is beautiful to observe how wisely nature orders these things. He walked about in a coat embroidered all over, and in the drawing-rooms of society looked just like one of those rich pearl-embroidered bell-pulls, which are only made for show; and behind them always hangs a good thick cord for use.</div> 
+    <div class="column">...</div> 
+   </footer>
+ </body>
+</html>
